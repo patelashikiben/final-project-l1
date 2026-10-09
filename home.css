@@ -1,0 +1,30 @@
+body{
+    background:linear-gradient(rgb(148, 203, 228),#e99bcf,gold);
+    background-repeat:no-repeat;
+    min-height:100vh;
+}
+table{
+    width: 100%;
+    background-color: black;
+    
+}
+#ronaldo{
+    animation-name:ronaldo;
+    position:relative;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+}
+@keyframes ronaldo{
+    from{left:0px;top:0px;}
+    to{left:1000px;top:0px;}
+}
+#cr7{
+    animation-name:cr7;
+    position:relative;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+}
+@keyframes cr7{
+    from{left:0px;top:0px;}
+    to{left:1000px;top:0px;}
+}
